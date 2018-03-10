@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nike ProductCard Dark</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+	<script src="https://use.fontawesome.com/775baa42df.js"></script>
+</head>
+<body>
+	<div class="conteiner">
+		<header><img src="img/logo.png" style="width: 65px; height: auto;"></header>
+		<section>
+			<div class="section__photo">
+				<img class="section__photoitem" src="img/shoes.png">
+				<ul class="section__color">
+					<li class="section__colorselect"></li>
+					<li class="section__colorselect"></li>
+					<li class="section__colorselect"></li>
+					<li class="section__colorselect"></li>
+				</ul>
+			</div>
+			<div class="section__info">
+				<h1>Nike SB Stefan Janoski Max</h1>
+				<h2>Unisex Scateboarding Shoe</h2>
+				<div class="section__stars">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+				</div>
+				<form class="choose" method="post">
+					<select name="size" size="1" required>
+						<option disabled selected>Size</option>
+						<option value="40">40</option>
+						<option value="41">41</option>
+						<option value="42">42</option>
+					</select>
+					<select name="qty" size="1" required>
+						<option disabled selected>Qty</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+					<input type="submit" value="Add to cart">
+				</form>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
